@@ -3,5 +3,5 @@ export function formatName(
   lastName: string,
   middleName?: string | null,
 ): string {
-  return '';
+  return lastName + ", " + firstName + (middleName ? " " + middleName[0] + ".": "") ; 
 }

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { transcribeDNA } from '../src/exercise02.js';
+import { transcribeDNA } from '../src/exercise02.ts';
 
 describe('Exercise 2: transcribeDNA', () => {
   it('should transcribe valid DNA sequences to RNA', () => {
